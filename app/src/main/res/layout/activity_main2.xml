@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaison.aero.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:text="Choose the part you want to work on.."
+        android:textSize="22sp"
+        android:textColor="#000000"
+        />
+
+    <Button
+        android:id="@+id/buttonWing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+        android:text="WING" />
+
+    <Button
+        android:id="@+id/buttonTail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonWing"
+        android:layout_below="@+id/buttonWing"
+        android:layout_marginTop="88dp"
+        android:text="TAIL" />
+
+    <Button
+        android:id="@+id/buttonFuse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonTail"
+        android:layout_below="@+id/buttonTail"
+        android:layout_marginTop="88dp"
+        android:text="FUSE" />
+</RelativeLayout>
